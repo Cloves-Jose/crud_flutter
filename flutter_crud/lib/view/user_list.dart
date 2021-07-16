@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_crud/components/user_tile.dart';
+import 'package:flutter_crud/models/user.dart';
 import 'package:flutter_crud/provider/users.dart';
 import 'package:provider/provider.dart';
 
@@ -15,7 +16,9 @@ class UserList extends StatelessWidget {
         title: Text('Lista de Usuários'),
         actions: <Widget>[
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              
+            },
             icon: Icon(Icons.add),
           ),
         ],
